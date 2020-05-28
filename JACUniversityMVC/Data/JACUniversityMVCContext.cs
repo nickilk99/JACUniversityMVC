@@ -15,5 +15,7 @@ namespace JACUniversityMVC.Data
         }
 
         public DbSet<JACUniverstityMVC.Models.Student> Student { get; set; }
+
+        public DbSet<JACUniverstityMVC.Models.Course> Course { get; set; }
     }
 }
